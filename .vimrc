@@ -9,7 +9,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'preservim/nerdtree'
 	Plug 'junegunn/vim-easy-align'
 	Plug 'https://github.com/junegunn/vim-plug'
-	Plug 'jcherven/jummidark.vim'
 	Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 	Plug 'jiangmiao/auto-pairs' 
 	Plug 'dense-analysis/ale'
@@ -28,7 +27,6 @@ let mapleader = " "
 set backspace=indent,eol,start
 set clipboard=unnamed
 syntax on
-colorscheme jummidark
 set number relativenumber
 set notimeout
 set ttimeout
@@ -47,7 +45,6 @@ set wildmenu
 map <leader>n :NERDTreeToggle<CR>
 map <leader>w <C-w>q
 map <leader>s :Prettier<CR>:w<CR>
-"smap <leader>l <C-l>
 
 " Prettier Options
 let g:prettier#autoformat = 1
