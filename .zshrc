@@ -100,6 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ls="ls -al"
 alias mongod="sudo mongod --dbpath /System/Volumes/Data/data/db"
+alias cl="clear"
+alias ..="cd .."
 
 # Git Command Aliases
 alias ga="git add ."
@@ -107,7 +109,11 @@ alias gcm="git commit -m '$1'"
 alias gp="git push"
 alias gs="git status"
 
-PATH=/opt/local/bin:$PATH
+# Vim Mode inside zsh
+bindkey -v
+export KEYTIMEOUT=1
+
+# PATH=/opt/local/bin:$PATH
 
 alias fixdisplay='displayplacer "id:DD8E228D-66A6-D596-8FED-7040D4DA2B09 res:1920x1080 hz:60 color_depth:8 scaling:off origin:(0,0) degree:0" "id:EBCE6BE3-D901-C2F4-F910-293A07533937 res:1080x1920 hz:60 color_depth:8 scaling:off origin:(-1080,-806) degree:270" '
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
