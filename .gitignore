@@ -1,0 +1,6 @@
+# This file is used for GLOBAL gitignores.
+# I was just tired of accidentally commiting my temp Vim Files.
+
+*~
+*.swp
+*.swo

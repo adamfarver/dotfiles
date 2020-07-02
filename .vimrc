@@ -49,6 +49,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 	
 	"Packages themes
 	Plugin 'flazz/vim-colorschemes'
+	Plugin 'ParamagicDev/vim-medic_chalk'
 	
 	"Shows a git diff in the gutter (sign column) and stages/undoes hunks.
 	Plugin 'airblade/vim-gitgutter'
@@ -139,7 +140,7 @@ filetype plugin on
 
 	
 " Color Scheme
- colorscheme Tomorrow-Night-Eighties 
+ colorscheme medic_chalk 
 "
 "" Basic functionality setup
 let mapleader = " "
@@ -179,7 +180,6 @@ let g:UltiSnipsExpandTrigger="<C-l>"
 
 
 
-    let g:UltiSnipsExpandTrigger="<tab>"
     let g:UltiSnipsJumpForwardTrigger="<c-b>"
     let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:jsdoc_enable_es6 = 1

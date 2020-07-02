@@ -102,6 +102,7 @@ alias ls="ls -al"
 alias mongod="sudo mongod --dbpath /System/Volumes/Data/data/db"
 alias cl="clear"
 alias ..="cd .."
+alias c="clear"
 
 # Git Command Aliases
 alias ga="git add ."
