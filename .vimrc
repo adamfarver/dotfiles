@@ -2,6 +2,7 @@ if &compatible
       set nocompatible
 endif
 filetype off
+set hidden
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -25,9 +26,9 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
-	" JSDOC - So Much Easier
+" Documentation and Markdown
 	Plugin  'heavenshell/vim-jsdoc'
-
+	Plugin  'tpope/vim-markdown'
 	" TREE TAB
 	Plugin 'preservim/nerdtree'
 	Plugin 'junegunn/vim-easy-align'
@@ -94,7 +95,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 	
 	"" Custom bundles
 	Plugin 'tpope/vim-surround'
-	Plugin 'Valloric/YouCompleteMe'
+	"Plugin 'Valloric/YouCompleteMe'
+	Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 	Plugin 'mattn/emmet-vim'
 	Plugin 'michalliu/sourcebeautify.vim'
 	
@@ -140,8 +142,7 @@ filetype plugin on
 
 	
 " Color Scheme
- colorscheme medic_chalk 
-"
+ colorscheme gruvbox 
 "" Basic functionality setup
 let mapleader = " "
 set backspace=indent,eol,start
@@ -165,7 +166,6 @@ set wildmenu
 map <leader>n :NERDTreeToggle<CR>
 map <leader>w <C-w>q
 map <leader>s :Prettier<CR>:w<CR>
-
 " Prettier Options
 let g:prettier#autoformat = 1
 
@@ -173,14 +173,20 @@ let g:prettier#autoformat = 1
 " ALE Options
 let g:ale_fixers = {'javascript':['eslint']}
 let g:ale_linters = {'javascript':['eslint']}
-
-
 let g:ale_javascript_eslint_use_global = 1
-let g:UltiSnipsExpandTrigger="<C-l>"
 
-
-
-    let g:UltiSnipsJumpForwardTrigger="<c-b>"
-    let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+" JSDOC Options
 let g:jsdoc_enable_es6 = 1
 let g:jsdoc_allow_input_prompt = 1
+
+" SirVer Ultisnips Options
+ let g:UltiSnipsExpandTrigger="<tab>"
+  let g:UltiSnipsJumpForwardTrigger="<c-j>"
+  let g:UltiSnipsJumpBackwardTrigger="<c-k>"
+
+  " If you want :UltiSnipsEdit to split your window.
+  let g:UltiSnipsEditSplit="vertical" 
+let g:UltiSnipsSnippetsDir="~/.vim/ultisnips"
+let g:UltiSnipsSnippetDirectories=["ultisnips"]
+
+let g:markdown_fenced_languages = ['coffee', 'css', 'erb=eruby', 'javascript', 'js=javascript', 'json=javascript', 'ruby', 'sass', 'xml', 'md', 'bash=sh']
