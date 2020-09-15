@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 alias ls="ls -al"
 alias mongod="sudo mongod --dbpath /System/Volumes/Data/data/db"
 alias cl="clear"
-alias ..="cd .."
+alias ..="cd .. && ls"
 alias c="clear"
 
 # Git Command Aliases
