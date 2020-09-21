@@ -103,6 +103,7 @@ alias mongod="sudo mongod --dbpath /System/Volumes/Data/data/db"
 alias cl="clear"
 alias ..="cd .. && ls"
 alias c="clear"
+alias sb="cd ~/Documents/second-brain"
 
 # Git Command Aliases
 alias ga="git add ."
