@@ -136,7 +136,8 @@ filetype plugin on
 
 
 
-
+set conceallevel=0
+set tw=80
 
 
 
