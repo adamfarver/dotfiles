@@ -104,6 +104,7 @@ alias cl="clear"
 alias ..="cd .. && ls"
 alias c="clear"
 alias sb="cd ~/Documents/second-brain"
+alias dev="cd ~/dev"
 
 # Git Command Aliases
 alias ga="git add ."
@@ -119,3 +120,5 @@ export KEYTIMEOUT=1
 
 alias fixdisplay='displayplacer "id:DD8E228D-66A6-D596-8FED-7040D4DA2B09 res:1920x1080 hz:60 color_depth:8 scaling:off origin:(0,0) degree:0" "id:EBCE6BE3-D901-C2F4-F910-293A07533937 res:1080x1920 hz:60 color_depth:8 scaling:off origin:(-1080,-806) degree:270" '
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+export PATH="/usr/local/opt/python@3.9/bin:$PATH"
