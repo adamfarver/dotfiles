@@ -117,5 +117,7 @@ export KEYTIMEOUT=1
 
 # PATH=/opt/local/bin:$PATH
 
-alias fixdisplay='displayplacer "id:DD8E228D-66A6-D596-8FED-7040D4DA2B09 res:1920x1080 hz:60 color_depth:8 scaling:off origin:(0,0) degree:0" "id:EBCE6BE3-D901-C2F4-F910-293A07533937 res:1080x1920 hz:60 color_depth:8 scaling:off origin:(-1080,-806) degree:270" '
+alias fixdisplay='displayplacer "id:DD8E228D-66A6-D596-8FED-7040D4DA2B09 res:1920x1080 hz:60 color_depth:8 scaling:off origin:(0,0) degree:0" "id:EBCE6BE3-D901-C2F4-F910-293A07533937 res:1080x1920 hz:60 color_depth:8 scaling:off origin:(-1080,-806) degree:90" '
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/adamfarver/.yarn/bin:/Users/adamfarver/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/adamfarver/.yarn/bin:/Users/adamfarver/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.8/bin
+alias firefox="open /Applications/Firefox.app"

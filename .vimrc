@@ -143,8 +143,9 @@ set tw=80
 
 	
 " Color Scheme
- colorscheme gruvbox 
-"" Basic functionality setup
+ colorscheme nord 
+ autocmd :AirlineTheme papercolor
+ "" Basic functionality setup
 let mapleader = " "
 set backspace=indent,eol,start
 set clipboard=unnamed
