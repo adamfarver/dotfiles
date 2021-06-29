@@ -16,7 +16,7 @@ Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
 " Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
+"Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
 "Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -74,7 +74,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 	Plugin 'scrooloose/syntastic'
 	
 	"Multiple Cursors
-	Plugin 'terryma/vim-multiple-cursors'
+	Plugin  'mg979/vim-visual-multi'
 	
 	"Display the indention levels with thin vertical lines
 	Plugin 'Yggdroot/indentLine'
@@ -168,6 +168,7 @@ set wildmenu
 map <leader>n :NERDTreeToggle<CR>
 map <leader>w <C-w>q
 map <leader>s :Prettier<CR>:w<CR>
+let g:session_autosave = 'no'
 " Prettier Options
 let g:prettier#autoformat = 1
 
