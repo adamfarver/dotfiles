@@ -144,7 +144,7 @@ set tw=80
 	
 " Color Scheme
  colorscheme nord 
- autocmd :AirlineTheme papercolor
+" autocmd :AirlineTheme papercolor
  "" Basic functionality setup
 let mapleader = " "
 set backspace=indent,eol,start
