@@ -122,5 +122,6 @@ alias fixdisplay='displayplacer "id:DD8E228D-66A6-D596-8FED-7040D4DA2B09 res:192
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/adamfarver/.yarn/bin:/Users/adamfarver/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/adamfarver/.yarn/bin:/Users/adamfarver/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.8/bin
 alias firefox="open /Applications/Firefox.app"
+alias gl="git log"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/bin:$PATH"
