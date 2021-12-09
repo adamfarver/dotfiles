@@ -29,6 +29,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Documentation and Markdown
 	Plugin  'heavenshell/vim-jsdoc'
 	Plugin  'tpope/vim-markdown'
+	Plugin 'vimwiki/vimwiki'
 	" TREE TAB
 	Plugin 'preservim/nerdtree'
 	Plugin 'junegunn/vim-easy-align'
@@ -166,7 +167,7 @@ set wildmenu
 
 " Basic Key Mappings
 map <leader>n :NERDTreeToggle<CR>
-map <leader>w <C-w>q
+map <leader>cw <C-w>q
 map <leader>s :Prettier<CR>:w<CR>
 let g:session_autosave = 'no'
 " Prettier Options
