@@ -81,11 +81,13 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
+export EDITOR='vim'
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
 #   export EDITOR='mvim'
 # fi
+
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -112,6 +114,9 @@ alias gcm="git commit -m $1"
 alias gp="git push"
 alias gpull="git pull"
 alias gs="git status"
+alias gil="gh issue list"
+alias gic="gh issue create"
+
 
 # Vim Mode inside zsh
 bindkey -v
