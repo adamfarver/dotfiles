@@ -108,8 +108,9 @@ alias dev="cd ~/dev"
 
 # Git Command Aliases
 alias ga="git add ."
-alias gcm="git commit -m '$1'"
+alias gcm="git commit -m $1"
 alias gp="git push"
+alias gpull="git pull"
 alias gs="git status"
 
 # Vim Mode inside zsh
