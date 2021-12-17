@@ -134,14 +134,8 @@ filetype plugin on
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-
-
-
 set conceallevel=0
 set tw=80
-
-
-
 	
 " Color Scheme
  colorscheme nord 
@@ -162,8 +156,6 @@ set splitright
 set path+=**
 " Allows tab complete
 set wildmenu
-
-
 
 " Basic Key Mappings
 map <leader>n :NERDTreeToggle<CR>
