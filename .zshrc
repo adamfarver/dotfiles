@@ -116,6 +116,12 @@ alias gs="git status"
 alias gil="gh issue list"
 alias gic="gh issue create"
 
+# Audio Switching Aliases
+alias ashp="SwitchAudioSource -s External\ Headphones"
+alias asm="SwitchAudioSource -s Mac\ mini\ Speakers"
+
+# TMUX aliases
+alias tls="tmux list-sessions"
 
 # Vim Mode inside zsh
 bindkey -v
