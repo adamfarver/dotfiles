@@ -120,6 +120,7 @@ alias gl="git log"
 # Audio Switching Aliases
 alias ashp="SwitchAudioSource -s External\ Headphones"
 alias asm="SwitchAudioSource -s Mac\ mini\ Speakers"
+alias assony="SwitchAudioSource -s WH-1000XM3"
 
 # TMUX aliases
 alias tls="tmux list-sessions"
