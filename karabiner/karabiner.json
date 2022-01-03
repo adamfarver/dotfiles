@@ -2226,7 +2226,7 @@
                 },
                 "to": [
                   {
-                    "key_code": "e",
+                    "key_code": "r",
                     "modifiers": ["shift", "option"]
                   }
                 ],
@@ -2269,7 +2269,7 @@
                     }
                   },
                   {
-                    "key_code": "e",
+                    "key_code": "r",
                     "modifiers": ["shift", "option"]
                   }
                 ],
