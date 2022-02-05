@@ -104,8 +104,8 @@ alias ls="ls -al"
 alias mongod="sudo mongod --dbpath /System/Volumes/Data/data/db"
 alias cl="clear"
 alias ..="cd .. && ls"
-alias c="clear"
 alias dev="cd ~/dev"
+alias ding="tput bel"
 
 # Git Command Aliases
 alias ga="git add ."
@@ -124,6 +124,7 @@ alias assony="SwitchAudioSource -s WH-1000XM3"
 
 # TMUX aliases
 alias tls="tmux list-sessions"
+alias tcs="tmux new-session -s $1"
 
 # Vim Mode inside zsh
 bindkey -v
@@ -137,3 +138,6 @@ export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:/Application
 alias firefox="open /Applications/Firefox.app"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/bin:$PATH"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
+
