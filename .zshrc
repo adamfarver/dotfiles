@@ -103,9 +103,11 @@ export EDITOR='vim'
 alias ls="ls -al"
 alias mongod="sudo mongod --dbpath /System/Volumes/Data/data/db"
 alias cl="clear"
+alias c="clear"
 alias ..="cd .. && ls"
 alias dev="cd ~/dev"
 alias ding="tput bel"
+alias firefox="open /Applications/Firefox.app"
 
 # Git Command Aliases
 alias ga="git add ."
@@ -125,19 +127,25 @@ alias assony="SwitchAudioSource -s WH-1000XM3"
 # TMUX aliases
 alias tls="tmux list-sessions"
 alias tcs="tmux new-session -s $1"
+alias ta="tmux attach"
 
 # Vim Mode inside zsh
 bindkey -v
 export KEYTIMEOUT=1
 
 # PATH=/opt/local/bin:$PATH
+# Current display layout
+alias fixdisplay='displayplacer "id:EBCE6BE3-D901-C2F4-F910-293A07533937 res:1920x1080 hz:60 color_depth:8 scaling:off origin:(0,0) degree:0" "id:DD8E228D-66A6-D596-8FED-7040D4DA2B09 res:1920x1080 hz:60 color_depth:8 scaling:off origin:(0,-1080) degree:0" "id:9E4BF815-20EF-159A-95FD-E3496E099C45 res:1920x1080 hz:60 color_depth:8 scaling:off origin:(1920,0) degree:0"'
 
-alias fixdisplay='displayplacer "id:DD8E228D-66A6-D596-8FED-7040D4DA2B09 res:1920x1080 hz:60 color_depth:8 scaling:off origin:(0,0) degree:0" "id:EBCE6BE3-D901-C2F4-F910-293A07533937 res:1080x1920 hz:60 color_depth:8 scaling:off origin:(-1080,-806) degree:90" '
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/adamfarver/.yarn/bin:/Users/adamfarver/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/adamfarver/.yarn/bin:/Users/adamfarver/.config/yarn/global/node_modules/.bin:/Library/Frameworks/Python.framework/Versions/3.8/bin
-alias firefox="open /Applications/Firefox.app"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/python@3.9/bin:$PATH"
+
+export ANDROID_SDK="/Users/adamfarver/Library/Android/sdk"
+export PATH="/Users/adamfarver/Library/Android/sdk/platform-tools:$PATH"
+
+
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
 

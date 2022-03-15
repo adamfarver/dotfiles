@@ -136,7 +136,7 @@ filetype plugin on
 
 set conceallevel=0
 set tw=80
-	
+set spell spelllang=en_us
 " Color Scheme
  colorscheme nord 
 " autocmd :AirlineTheme papercolor
