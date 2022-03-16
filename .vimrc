@@ -96,8 +96,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 	
 	"" Custom bundles
 	Plugin 'tpope/vim-surround'
-	"Plugin 'Valloric/YouCompleteMe'
-	Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+	Plugin 'Valloric/YouCompleteMe'
+	" Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 	Plugin 'mattn/emmet-vim'
 	Plugin 'michalliu/sourcebeautify.vim'
 	
