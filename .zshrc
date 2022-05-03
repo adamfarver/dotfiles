@@ -81,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-export EDITOR='vim'
+export EDITOR='lvim'
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
@@ -108,6 +108,7 @@ alias ..="cd .. && ls"
 alias dev="cd ~/dev"
 alias ding="tput bel"
 alias firefox="open /Applications/Firefox.app"
+alias lv="lvim $1"
 
 # Git Command Aliases
 alias ga="git add ."
@@ -129,7 +130,7 @@ alias tls="tmux list-sessions"
 alias tcs="tmux new-session -s $1"
 alias ta="tmux attach"
 
-# Vim Mode inside zsh
+# V m Mode inside zsh
 bindkey -v
 export KEYTIMEOUT=1
 
@@ -144,7 +145,8 @@ export PATH="/usr/local/opt/python@3.9/bin:$PATH"
 
 export ANDROID_SDK="/Users/adamfarver/Library/Android/sdk"
 export PATH="/Users/adamfarver/Library/Android/sdk/platform-tools:$PATH"
-
+export PATH="/usr/local/share/dotnet:$PATH"
+export PATH="/Users/adamfarver/.local/bin:$PATH"
 
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true

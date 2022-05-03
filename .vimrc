@@ -27,8 +27,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Plugin 'ascenator/L9', {'name': 'newL9'}
 
 " Documentation and Markdown
-	Plugin  'heavenshell/vim-jsdoc'
-	Plugin  'tpope/vim-markdown'
+	Plugin 'heavenshell/vim-jsdoc'
+	Plugin 'tpope/vim-markdown'
 	Plugin 'vimwiki/vimwiki'
 	" TREE TAB
 	Plugin 'preservim/nerdtree'
@@ -84,8 +84,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 	Plugin 'Shougo/vimproc.vim'
 	
 	"" Vim Session
-	Plugin 'xolox/vim-misc'
-	Plugin 'xolox/vim-session'
+	" Plugin 'xolox/vim-misc'
+	" Plugin 'xolox/vim-session'
 	
 	"Improved integration between Vim and its environment 
 	Plugin 'Shougo/vimshell.vim'
@@ -136,11 +136,12 @@ filetype plugin on
 
 set conceallevel=0
 set tw=80
-set spell spelllang=en_us
+"set spell spelllang=en_us
 " Color Scheme
- colorscheme nord 
+"set background=dark
+"colorscheme nord 
 " autocmd :AirlineTheme papercolor
- "" Basic functionality setup
+ " Basic functionality setup
 let mapleader = " "
 set backspace=indent,eol,start
 set clipboard=unnamed
@@ -180,8 +181,8 @@ let g:jsdoc_allow_input_prompt = 1
   let g:UltiSnipsJumpForwardTrigger="<c-j>"
   let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
-  " If you want :UltiSnipsEdit to split your window.
-  let g:UltiSnipsEditSplit="vertical" 
+  " If you want :UltiSnipsEdit to split your window
+let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetsDir="~/.vim/ultisnips"
 let g:UltiSnipsSnippetDirectories=["ultisnips"]
 
