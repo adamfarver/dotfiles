@@ -138,8 +138,8 @@ set conceallevel=0
 set tw=80
 "set spell spelllang=en_us
 " Color Scheme
-"set background=dark
-"colorscheme nord 
+set background=dark
+colorscheme nord 
 " autocmd :AirlineTheme papercolor
  " Basic functionality setup
 let mapleader = " "

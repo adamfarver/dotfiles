@@ -109,6 +109,7 @@ alias dev="cd ~/dev"
 alias ding="tput bel"
 alias firefox="open /Applications/Firefox.app"
 alias lv="lvim $1"
+alias lsg="ls | grep $1"
 
 # Git Command Aliases
 alias ga="git add ."
@@ -151,3 +152,7 @@ export PATH="/Users/adamfarver/.local/bin:$PATH"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
