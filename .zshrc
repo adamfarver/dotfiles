@@ -42,7 +42,7 @@ ZSH_THEME="avit"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -81,7 +81,7 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-export EDITOR='lvim'
+export EDITOR='nvim'
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
 # else
@@ -100,7 +100,7 @@ export EDITOR='lvim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls="ls -al"
+# alias ls="ls -al"
 alias mongod="sudo mongod --dbpath /System/Volumes/Data/data/db"
 alias cl="clear"
 alias c="clear"
@@ -148,6 +148,8 @@ export ANDROID_SDK="/Users/adamfarver/Library/Android/sdk"
 export PATH="/Users/adamfarver/Library/Android/sdk/platform-tools:$PATH"
 export PATH="/usr/local/share/dotnet:$PATH"
 export PATH="/Users/adamfarver/.local/bin:$PATH"
+export PATH="/Users/adamfarver/Library/Python/3.9/bin:$PATH"
+export PATH="/Library/Frameworks/Mono.framework/Versions/6.12.0/bin/:$PATH"
 
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh" || true
