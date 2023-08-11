@@ -8,7 +8,7 @@ export ZSH="/Users/adamfarver/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="avit"
+ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -110,6 +110,8 @@ alias ding="tput bel"
 alias firefox="open /Applications/Firefox.app"
 alias lv="lvim $1"
 alias lsg="ls | grep $1"
+alias lsa="ls -al"
+
 
 # Git Command Aliases
 alias ga="git add ."
